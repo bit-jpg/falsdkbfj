@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Ampucao Test</title>
+    </head>
+    <body>
+        <h1> Ampucao National High School </h1>
+        <h2> Online Enrollment Forn </h2>
+        <form>
+            <!--Grade level and something-->
+            <fieldset>
+                <legend> Grade Level and School Information </legend>
+                    <label for="schoolYear" > School Year: </label>
+                    <input id="schoolYear" type="number" placeholder="No you" min="2023" max="2024" size="10" disabled><br><br>
+                <!--Radio buttons-->
+                    <label for="section"> Select one: </label><br>
+                    <input type="radio" name="noLRN" value="No LRN">
+                    <label for="noLRN" > No LRN</label><br>
+                    <input type="radio" name="withLRN" value="with LRN">
+                    <label for="noLRN" > with LRN</label><br><br>
+
+                <!--Still Radio buttons no br-->
+                    <label for="">Returning Student?</label>
+                    <input type="radio" id="Yes" value="Yes">
+                    <label for="Yes">Yes</label>
+                    <input type="radio" id="No" value="No">
+                    <label for="No">No</label><br><br>
+
+                <!--God dammmit-->
+                    <label>Grade Level to Enroll:</label><br>
+                    <label for="gradeSelection"> (Choose from Grade 7 to 12) </label>
+                    <input type="number" min="7" max="12" placeholder="7-12">
+            </fieldset>
+
+            <br>
+            <!--Student We wnat yur daata-->
+            <fieldset>
+                <legend>Student Information</legend>
+                <!--yummy data-->
+                <label for="studentPSA"> PSA Birth Certificate No: </label><br>
+                <input type="number" id="studentPSA"><br><br>
+                <!-- Hell nah yes-->
+                <label for="LRN">LRN</label>
+                <div id="LRN">
+                    <input type="text" maxlength="6" size="6"> - <input type="text" maxlength="2"  size="2"> -<input type="text" maxlength="4"  size="4">
+                </div>
+                
+                <label for="firstName"> First Name:</label><br>
+                <input type="text" id="firstName"><br>
+
+                <label for="lastName"> Last Name:</label><br>
+                <input type="text" id="lastName"><br>
+
+                <label for="middleName"> Middle Name:</label><br>
+                <input type="text" id="middleName">
+            </fieldset>
+        </form>
+    </body>
+</html>
